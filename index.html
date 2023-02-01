@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mudar depois</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+
+<body>
+    <!-- titulo fotos começo-->
+    <div>
+        <center>
+        <p class="rd-text title"> Fotos Empreendimentos Charlie </p> 
+        </center>
+    </div> 
+    <!-- titulo fotos término-->   
+
+    <hr class="hr" />
+    <!-- escondido começo-->
+    <div class="options hide">
+        <label><input type="radio" name="operation" value="union" id="op-union" checked> Union</label>
+        <label><input type="radio" name="operation" value="intersection" id="op-inter"> Intersection</label>
+    </div>
+    <!-- escondido término-->
+
+    <!-- filtros começo -->
+    <div class="container md-center padding-menu">
+        <div class="categories">
+            <div class="row justify-content-md-center">
+                <div class="col-md-4 col-8 container text-center">
+                    <h3 class="titulo-categoria center-center">
+                        Cidades
+                    </h3>
+                    <div class="row align-items-center">
+                        <div class="form-check pading-bottom checkbox-text margin-radio-first col">
+                            <input class="form-check-input" type="checkbox" id="sp" value="sp">
+                            <label class="form-check-label" for="sp">São Paulo</label>
+                        </div>
+                        <div class="form-check pading-bottom checkbox-text margin-radio-first col">
+                            <input class="form-check-input" type="checkbox" id="rj" value="rj">
+                            <label class="form-check-label" for="rj">Rio de Janeiro</label>
+                        </div>
+                    </div>
+                    <div class="row align-items-start">
+                        <div class="form-check pading-bottom checkbox-text col">
+                            <input class="form-check-input" type="checkbox" id="poa" value="poa">
+                            <label class="form-check-label" for="poa">Porto Alegre</label>
+                        </div>
+                        <div class="form-check pading-bottom checkbox-text col">
+                            <input class="form-check-input" type="checkbox" id="barueri" value="barueri">
+                            <label class="form-check-label" for="barueri">Barueri</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-8 container text-center">
+                    <h3 class="titulo-categoria center-center">
+                        Categorias
+                    </h3>
+                    <div class="row align-items-center">
+                        <div class="form-check pading-bottom checkbox-text margin-radio-first col">
+                            <input class="form-check-input" type="checkbox" id="charlie" value="charlie">
+                            <label class="form-check-label" for="charlie">Charlie</label>
+                        </div>
+                        <div class="form-check pading-bottom checkbox-text margin-radio-first col">
+                            <input class="form-check-input" type="checkbox" id="smart" value="smart">
+                            <label class="form-check-label" for="smart">Smart</label>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="form-check pading-bottom checkbox-text col">
+                            <input class="form-check-input" type="checkbox" id="by-charlie" value="by-charlie">
+                            <label class="form-check-label" for="by-charlie">By Charlie</label>
+                        </div>
+                        <div class="form-check pading-bottom checkbox-text col hide">
+                            <input class="form-check-input" type="checkbox" id="crazy" value="crazy">
+                            <label class="form-check-label" for="crazy">Crazy</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <hr class="hr" />
+            </div>
+        </div>
+    </div>
+    <!-- filtros término -->
+    <!-- começo do grid de fotos -->
+    <div class="container">
+        <div class="row">
+            <div class="filterDiv sp charlie col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro 5-100">
+                    <img class="card-img-top "
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Charlie%20Itaim/carrossel-capa/studio-casal/Charlie%20Itaim%20-%20Studio%20Casal%20(12).jpg"
+                        alt="Charlie Itaim">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-charlie texto-centro"> Charlie </button><button
+                                class="tag-sp texto-centro">
+                                São Paulo </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Charlie Itaim</h5>
+                        <p class="card-text fonte-corpo"> Rua João Cachoeira, 1577 </br>Itaim Bibi, São Paulo - SP,
+                            04535-015</p>
+                        <div class="flex-container center-center">
+                            <a href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-itaim">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filterDiv sp charlie col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro">
+                    <img class="card-img-top "
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Charlie%20Century%20Itaim/carrossel-capa/studio-casal/Charlie%20Century%20Itaim%20-%20Studio%20Casal%20(3).jpg"
+                        alt="Charlie Century Itaim">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-charlie texto-centro"> Charlie </button><button
+                                class="tag-sp texto-centro">
+                                São Paulo </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Charlie Century Itaim</h5>
+                        <p class="card-text fonte-corpo"> Rua Pedroso Alvarenga, 1256</br> Itaim Bibi, São Paulo -
+                            SP,
+                            04531-004 </p>
+                        <div class="flex-container center-center">
+                            <a href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-century-itaim">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filterDiv sp charlie col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro">
+                    <img class="card-img-top "
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Charlie%20Jer%C3%B4nimo%20da%20Veiga/carrossel-capa/Charlie%20Jer%C3%B4nimo%20da%20Veiga%20-%201503/Charlie%20Jer%C3%B4nimo%20da%20Veiga%20-%201503%20%20(1).jpg"
+                        alt="Charlie Jerônimo da Veiga">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-charlie texto-centro"> Charlie </button><button
+                                class="tag-sp texto-centro"> São Paulo </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Charlie Jerônimo da Veiga</h5>
+                        <p class="card-text fonte-corpo"> Rua Jerônimo da Veiga, 248 </br> Itaim Bibi, São Paulo -
+                            SP,
+                            04536-001</p>
+                        <div class="flex-container center-center">
+                            <a
+                                href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-jeronimo-da-veiga">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="filterDiv sp charlie col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro">
+                    <img class="card-img-top "
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Charlie%20Edi%C3%A7%C3%A3o%20Jardim%20Paulista/carrossel-capa/Charlie%20Edicao%20Jardim%20Paulista%20-%20Apartamento%20Superior%20Casal/Charlie%20Edi%C3%A7%C3%A3o%20Jardim%20Paulista%20-%20Apartamento%20Superior%20Casal%20(2).jpg"
+                        alt="Charlie Ed. Jd. Paulista">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-charlie texto-centro"> Charlie </button>
+                            <button class="tag-sp texto-centro"> São Paulo </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Charlie Ed. Jd. Paulista</h5>
+                        <p class="card-text fonte-corpo"> Alameda Fernão Cardim, 70 </br>Jardim Paulista, São Paulo
+                            -
+                            SP,
+                            01403-020</p>
+                        <div class="flex-container center-center">
+                            <a
+                                href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-edicao-jardim-paulista">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filterDiv sp charlie col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro">
+                    <img class="card-img-top "
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Charlie%20One%20Eleven%20Vila%20Olimpia/carrossel-capa/Apartamento%20Superior/Chartlie%20Oneeleven%20Vila%20Olimpia%20-%20Apartamento%20Superior%20(4).jpg"
+                        alt="Charlie One Eleven Vila Olímpia">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-charlie texto-centro"> Charlie </button><button
+                                class="tag-sp texto-centro">
+                                São
+                                Paulo </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Charlie One Eleven Vila Olímpia</h5>
+                        <p class="card-text fonte-corpo"> Rua Pequetita, 111</br> Vila Olímpia, São Paulo - SP,
+                            04552-907
+                        </p>
+                        <div class="flex-container center-center">
+                            <a
+                                href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-oneeleven-vila-olimpia">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filterDiv sp charlie col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro">
+                    <img class="card-img-top"
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Charlie%20Brooklyn%20Studios/carrossel-capa/Charlie%20Brooklyn%20Studios%20-%20Studio%20Casal%20com%20Sof%C3%A1%20Cama/Charlie%20Brooklyn%20Studios%20-%20Studio%20Casal%20com%20Sof%C3%A1%20Cama%20(13).jpg"
+                        alt="Charlie Brooklin Studios">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-charlie texto-centro"> Charlie </button><button
+                                class="tag-sp texto-centro">
+                                São
+                                Paulo </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Charlie Brooklin Studios</h5>
+                        <p class="card-text fonte-corpo"> Rua das Sempre-Vivas, 21 </br> Itaim Bibi, São Paulo - SP,
+                            04704-030
+                        </p>
+                        <div class="flex-container center-center">
+                            <a
+                                href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-brooklyn-studios">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="filterDiv sp charlie col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro">
+                    <img class="card-img-top "
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Charlie%20NYC%20Berrini/carrossel-capa/Charlie%20NYC%20Berrini%20-%201912%20-%20Triplex%202%20Dormit%C3%B3rios%20Luxo/Charlie%20NYC%20Berrini%20-%20Triplex%202%20Dormitorios%20Luxo%20(1).jpg"
+                        alt="Charlie NYC Berrini">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-charlie texto-centro"> Charlie </button><button
+                                class="tag-sp texto-centro"> São
+                                Paulo </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Charlie NYC Berrini</h5>
+                        <p class="card-text fonte-corpo"> Rua Sansão Alves dos Santos, 56 </br>Cidade Monções, São
+                            Paulo
+                            - SP
+                        </p>
+                        <div class="flex-container center-center">
+                            <a href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-nyc-berrini ">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filterDiv sp smart col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro">
+                    <img class="card-img-top "
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Smart%20Charlie%20Mobi%20Pinheiros/carrossel-capa/Smart%20Charlie%20Mobi%20Pinheiros%20-%20Studio%20Casal/Smart%20Charlie%20Mobi%20Pinheiros%20-%20Studio%20Casal%20(2).jpg"
+                        alt="Smart Charlie Mobi Pinheiros">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-smart texto-centro"> Smart </button><button class="tag-sp texto-centro">
+                                São
+                                Paulo </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Smart Charlie Mobi Pinheiros</h5>
+                        <p class="card-text fonte-corpo"> Rua Alves Guimarães, 251</br> Pinheiros, São Paulo - SP,
+                            05410-000
+                        </p>
+                        <div class="flex-container center-center">
+                            <a
+                                href="https://paginas.staycharlie.com.br/acordos-comerciais-smart-charlie-mobi-pinheiros">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filterDiv sp charlie col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro">
+                    <img class="card-img-top "
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Charlie%20Homelike%20Pinheiros/carrossel-capa/Charlie%20Homelike%20Pinheiros%20-%20Studio%20Casal/Charlie%20Homelike%20Pinheiros%20-%20Studio%20Casal%20(8).jpg"
+                        alt="Charlie Homelike Pinheiros">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-charlie texto-centro"> Charlie </button><button
+                                class="tag-sp texto-centro"> São
+                                Paulo </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Charlie Homelike Pinheiros</h5>
+                        <p class="card-text fonte-corpo"> Rua Fernão Dias, 407 </br> Pinheiros, São Paulo - SP,
+                            05427-010</p>
+                        <div class="flex-container center-center">
+                            <a
+                                href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-homelike-pinheiros">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="filterDiv sp charlie col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro">
+                    <img class="card-img-top "
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Charlie%20You%20Faria%20Lima/carrossel-capa/Charlie%20You%20Faria%20Lima%20-%20Apartamento%202%20Dormit%C3%B3rios/Charlie%20You%20Faria%20Lima%20-%20Apartamento%202%20Dormit%C3%B3rios%20(3).jpg"
+                        alt="Charlie You Faria Lima">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-charlie texto-centro"> Charlie </button><button
+                                class="tag-sp texto-centro"> São
+                                Paulo </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Charlie You Faria Lima</h5>
+                        <p class="card-text fonte-corpo"> Rua Maria Carolina, 601 </br>Jd. Paulistano, São Paulo -
+                            SP,
+                            01445-000
+                        </p>
+                        <div class="flex-container center-center">
+                            <a
+                                href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-you-faria-lima">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="filterDiv sp charlie col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro">
+                    <img class="card-img-top "
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Charlie%20NUM%20Itaim/carrossel-capa/Charlie%20NUN%20Itaim%20-%202609%20-%20Studio%20Deluxe/NUN61-2609SL-5.jpg"
+                        alt="Charlie NUN Itaim">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-charlie texto-centro"> Charlie </button><button
+                                class="tag-sp texto-centro"> São
+                                Paulo </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Charlie NUN Itaim</h5>
+                        <p class="card-text fonte-corpo"> Rua Doutor Guilherme Bannitz, 60</br> Itaim Bibi, São
+                            Paulo -
+                            SP,
+                            04532-060 </p>
+                        <div class="flex-container center-center">
+                            <a href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-nun-itaim">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="filterDiv sp charlie col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro">
+                    <img class="card-img-top "
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Charlie%20Aeroporto%20Congonhas%20CGH/carrossel-capa/studio-casal/Charlie%20Congonhas%20CGH%20-%20Studio%20Casal%20(17).jpg"
+                        alt="Charlie Aeroporto Congonhas CGH">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-charlie texto-centro"> Charlie </button><button
+                                class="tag-sp texto-centro"> São
+                                Paulo </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Charlie Aeroporto Congonhas CGH</h5>
+                        <p class="card-text fonte-corpo"> Rua Renascença, 113 </br> Vila Congonhas, São Paulo - SP,
+                            04612-010
+                        </p>
+                        <div class="flex-container center-center">
+                            <a
+                                href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-aeroporto-congonhas-cgh">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="filterDiv sp charlie col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro">
+                    <img class="card-img-top "
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Charlie%20Style%20Itaim/carrossel-capa/c73/Charlie%20Style%20Itaim%20-%20C73%20(4).jpg"
+                        alt="Charlie Style Itaim">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-charlie texto-centro"> Charlie </button><button
+                                class="tag-sp texto-centro"> São
+                                Paulo </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Charlie Style Itaim</h5>
+                        <p class="card-text fonte-corpo"> R. Leopoldo Couto Magalhães Júnior, 1098 </br>Itaim Bibi,
+                            São
+                            Paulo -
+                            SP,
+                            04542-001</p>
+                        <div class="flex-container center-center">
+                            <a href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-style-itaim">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filterDiv rj charlie col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro">
+                    <img class="card-img-top;"
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Charlie%20Bossa%20Ipanema/carrossel-capa/Charlie%20Bossa%20Ipanema%20-%20Studio%20Casal/Charlie%20Bossa%20Ipanema%20-%20405%20Studio%20Casal%20(1).jpg"
+                        alt="Charlie Bossa Ipanema">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-charlie texto-centro"> Charlie </button><button
+                                class="tag-rj texto-centro"> Rio
+                                de Janeiro </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Charlie Bossa Ipanema</h5>
+                        <p class="card-text fonte-corpo"> Rua Barão da Torre, 107</br> Ipanema, Rio de Janeiro - RJ,
+                            22411-001
+                        </p>
+                        <div class="flex-container center-center">
+                            <a href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-bossa-ipanema">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filterDiv sp charlie col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro">
+                    <img class="card-img-top"
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Charlie%20You%20Faria%20Lima/carrossel-capa/Charlie%20You%20Faria%20Lima%20-%20Apartamento%202%20Dormit%C3%B3rios/Charlie%20You%20Faria%20Lima%20-%20Apartamento%202%20Dormit%C3%B3rios%20(3).jpg"
+                        alt="Charlie You Faria Lima">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-charlie texto-centro"> Charlie </button>
+                            <button class="tag-sp texto-centro"> São Paulo </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Charlie You Faria Lima</h5>
+                        <p class="card-text fonte-corpo"> Rua Maria Carolina, 601</br> Jardim Paulistano, São Paulo
+                            - SP
+                        </p>
+                        <div class="flex-container center-center">
+                            <a
+                                href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-you-faria-lima">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filterDiv poa charlie col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro">
+                    <img class="card-img-top"
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Charlie%20The%20Park%20Cidade%20Baixa/carrossel-capa/Charlie%20the%20Park%20-%20Studio%20Casal/Charlie%20the%20Park%20-%20Studio%20Casal%20(9).jpg"
+                        alt="Charlie The Park Cidade Baixa">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-charlie texto-centro"> Charlie </button>
+                            <button class="tag-poa texto-centro"> Porto Alegre </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Charlie The Park Cidade Baixa</h5>
+                        <p class="card-text fonte-corpo"> Avenida João Pessoa, 775</br> Centro Histórico , Porto Alegre
+                            - RS
+                        </p>
+                        <div class="flex-container center-center">
+                            <a
+                                href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-the-park-cidade-baixa">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filterDiv sp charlie col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro">
+                    <img class="card-img-top"
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Charlie%20Vila%20Nova%20Concei%C3%A7%C3%A3o%20Jacques%20F%C3%A9lix/carrossel-capa/Apartamento%201%20Dormit%C3%B3rio%20Premium%20Casal/Charlie%20Vl%20Nova%20Concei%C3%A7%C3%A3o%20-%20Apartamento%201%20Dorm%20Premium%20Casal%20(11).jpg"
+                        alt="Charlie Vila Nova Conceição Jacques Félix">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-charlie texto-centro"> Charlie </button>
+                            <button class="tag-sp texto-centro"> São Paulo </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Charlie Vl. Nv. Conceição Jacques Félix</h5>
+                        <p class="card-text fonte-corpo"> Rua Jacques Félix, 601</br> Vl. Nova Conceição , São Paulo
+                            - SP
+                        </p>
+                        <div class="flex-container center-center">
+                            <a
+                                href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-vila-nova-conceicao-jacques-felix">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filterDiv poa charlie col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro">
+                    <img class="card-img-top"
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Charlie%20Porto%20Alegre%20Moinhos/carrossel-capa/Charlie%20Porto%20Alegre%20Moinhos%20-%20Studio%20Superior%20Casal/Charie%20Porto%20Alegre%20Moinhos%20-%20Studio%20Superior%20Casal%20(4)%20-%20Copia.jpg"
+                        alt="Charlie Porto Alegre Moinhos">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-charlie texto-centro"> Charlie </button>
+                            <button class="tag-poa texto-centro"> Porto Alegre </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Charlie Porto Alegre Moinhos</h5>
+                        <p class="card-text fonte-corpo"> Rua Ten. Cor. Fabricio Pillar, 311</br> Mont'Serrat , Porto Alegre
+                            - RS
+                        </p>
+                        <div class="flex-container center-center">
+                            <a
+                                href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-porto-alegre-moinhos">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filterDiv barueri charlie col-md-4 col-6 pading-bottom">
+                <div class="card texto-centro">
+                    <img class="card-img-top"
+                        src="https://contentstatic.blob.core.windows.net/prd/mkt_fotos_lp/Charlie%20Alphaville/carrossel-capa/Charlie%20Alphaville%20-%20Studio%20Standard%20Casal/Charlie%20Alphaville%20-%20Studio%20Standard%20Casal%20(8).jpg"
+                        alt="Charlie Alphaville">
+                    <div class="card-body">
+                        <div class="flex-container center-center">
+                            <button class="tag-charlie texto-centro"> Charlie </button>
+                            <button class="tag-barueri texto-centro"> Barueri </button>
+                        </div>
+                        <h5 class="card-title fonte-titulo">Charlie Alphaville</h5>
+                        <p class="card-text fonte-corpo"> Alameda Mamoré, 809</br> Barueri
+                            - SP, CEP 06454-040 
+                        </p>
+                        <div class="flex-container center-center">
+                            <a
+                                href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-alphaville">
+                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- término do grid de fotos -->
+    <!-- começo do mapa do google -->
+
+    <div class="container md-center padding-menu margin-map">
+        <div>
+            <center>
+                <p class="rd-text title"> Localização dos Empreendimentos </p>
+            </center>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-md-6 col-8 container text-center">
+                <iframe title="Mapa São Paulo" src="https://www.google.com/maps/d/embed?mid=14EiLVOlTJwz5E4xDdz09mY4Vixr7jCo&ehbc=2E312F"
+                    width="640" height="480"></iframe>
+            </div>
+            <div class="col-md-6 col-8 container text-center">
+                <iframe title="Mapa Porto Alegre" src="https://www.google.com/maps/d/embed?mid=1sqsBp5WLOkQVJ2hPyQELIjjcwlV9hDc&ehbc=2E312F"
+                    width="640" height="480"></iframe>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- final do mapa do google -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/10becbea76.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="custom.js"></script>
+</body>
+
+</html>
