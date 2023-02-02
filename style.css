@@ -4,8 +4,102 @@ div a {
     text-decoration: none;
 }
 
+/* Filtro Esquerda */
+
+@media only screen and (min-width: 320px) {
+    .padding-filtro-esq {
+        padding-left: 15vw !important;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .padding-filtro-esq {
+        padding-left: 20vw !important;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .padding-filtro-esq {
+        padding-left: 25vw !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .padding-filtro-esq {
+        padding-left: 10vw !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .padding-filtro-esq {
+        padding-left: 10vw !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .padding-filtro-esq {
+        padding-left: 12vw !important;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .padding-filtro-esq {
+        padding-left: 8vw !important;
+    }
+}
+
+
+/* Filtro Direita */
+
+@media only screen and (min-width: 320px) {
+    .padding-filtro-dir {
+        padding-left: 6vw !important;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .padding-filtro-dir {
+        padding-left: 8vw !important;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .padding-filtro-dir {
+        padding-left: 6vw !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .padding-filtro-dir {
+        padding-left: 2vw !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .padding-filtro-dir {
+        padding-left: 4vw !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .padding-filtro-dir {
+        padding-left: 3vw !important;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .padding-filtro-dir {
+        padding-left: 2vw !important;
+    }
+}
+
+.max-wigth {
+    max-width: 1200px;
+}
+
 .filterDiv {
     display: none;
+    padding-bottom: 25px;
 }
 
 
@@ -56,11 +150,6 @@ input#flexCheckDefault {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-}
-*/
-
-.pading-bottom {
-    padding-bottom: 25px;
 }
 
 .margin-right-checkbox {
@@ -199,6 +288,7 @@ input#flexCheckDefault {
     display: flex;
     cursor: default;
     margin-bottom: 15px;
+    white-space: nowrap;
 }
 
 .tag-rj {
@@ -215,6 +305,7 @@ input#flexCheckDefault {
     display: flex;
     cursor: default;
     margin-bottom: 15px;
+    white-space: nowrap;
 }
 
 
@@ -232,6 +323,7 @@ input#flexCheckDefault {
     display: flex;
     cursor: default;
     margin-bottom: 15px;
+    white-space: nowrap;
 }
 
 .btn3 {
@@ -276,6 +368,7 @@ input#flexCheckDefault {
     margin-top: 10px;
     text-decoration: none;
     outline: none;
+    white-space: nowrap;
 
 }
 
