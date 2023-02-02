@@ -11,7 +11,7 @@ function filter() {
   var i, j;
 
   // Choose an operation
-  var operation = document.getElementById("op-union").checked ? "union" : "intersection";
+  const operation = document.getElementById("op-union").checked ? "union" : "intersection";
 
   // Get the selected categories
   var checkboxes = document.querySelectorAll(".categories input");
@@ -48,4 +48,9 @@ function filter() {
       item.classList.remove("show");
     }
   }
+}
+
+function changeStyle(){
+  var element = document.getElementById(".options input");
+  element.style.display = "none";
 }

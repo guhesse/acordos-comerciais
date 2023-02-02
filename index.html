@@ -13,79 +13,107 @@
     <!-- titulo fotos começo-->
     <div>
         <center>
-        <p class="rd-text title"> Fotos Empreendimentos Charlie </p> 
+            <p class="rd-text title"> Fotos Empreendimentos Charlie </p>
         </center>
-    </div> 
-    <!-- titulo fotos término-->   
+    </div>
+    <!-- titulo fotos término-->
 
-    <hr class="hr" />
+    <div class="container">
+        <hr class="hr" />
+    </div>
+
     <!-- escondido começo-->
-    <div class="options hide">
+
+    <div class="options d-none">
         <label><input type="radio" name="operation" value="union" id="op-union" checked> Union</label>
         <label><input type="radio" name="operation" value="intersection" id="op-inter"> Intersection</label>
     </div>
+
     <!-- escondido término-->
 
     <!-- filtros começo -->
-    <div class="container md-center padding-menu">
-        <div class="categories">
-            <div class="row justify-content-md-center">
-                <div class="col-md-4 col-8 container text-center">
-                    <h3 class="titulo-categoria center-center">
-                        Cidades
-                    </h3>
-                    <div class="row align-items-center">
-                        <div class="form-check pading-bottom checkbox-text margin-radio-first col">
-                            <input class="form-check-input" type="checkbox" id="sp" value="sp">
-                            <label class="form-check-label" for="sp">São Paulo</label>
+    <div class="mx-auto" style="max-width:1200px;">
+        <div class="col-12">
+            <div class="row categories">
+                <!-- Categoria Metade -->
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="titulo-categoria text-center">
+                        <h3 class="titulo-categoria">
+                            Cidades
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 text-left checkbox-text">
+                            <div class="checkbox" style="padding-left: 110px;">
+                                <label><input class="form-check-input margin-right-checkbox" type="checkbox" id="sp" value="sp">São Paulo</label>
+                            </div>
                         </div>
-                        <div class="form-check pading-bottom checkbox-text margin-radio-first col">
-                            <input class="form-check-input" type="checkbox" id="rj" value="rj">
-                            <label class="form-check-label" for="rj">Rio de Janeiro</label>
+                        <div class="col-6 text-left checkbox-text">
+                            <div class="checkbox" style="padding-left: 60px;">
+                                <label><input class="form-check-input margin-right-checkbox" type="checkbox" id="rj" value="rj">Rio de Janeiro</label>
+                            </div>
                         </div>
                     </div>
-                    <div class="row align-items-start">
-                        <div class="form-check pading-bottom checkbox-text col">
-                            <input class="form-check-input" type="checkbox" id="poa" value="poa">
-                            <label class="form-check-label" for="poa">Porto Alegre</label>
+                    <div class="row ">
+                        <div class="col-6 text-left checkbox-text">
+                            <div class="checkbox" style="padding-left: 110px;">
+                                <label><input class="form-check-input margin-right-checkbox" type="checkbox" id="poa" value="poa">Porto Alegre</label>
+                            </div>
                         </div>
-                        <div class="form-check pading-bottom checkbox-text col">
-                            <input class="form-check-input" type="checkbox" id="barueri" value="barueri">
-                            <label class="form-check-label" for="barueri">Barueri</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-8 container text-center">
-                    <h3 class="titulo-categoria center-center">
-                        Categorias
-                    </h3>
-                    <div class="row align-items-center">
-                        <div class="form-check pading-bottom checkbox-text margin-radio-first col">
-                            <input class="form-check-input" type="checkbox" id="charlie" value="charlie">
-                            <label class="form-check-label" for="charlie">Charlie</label>
-                        </div>
-                        <div class="form-check pading-bottom checkbox-text margin-radio-first col">
-                            <input class="form-check-input" type="checkbox" id="smart" value="smart">
-                            <label class="form-check-label" for="smart">Smart</label>
-                        </div>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="form-check pading-bottom checkbox-text col">
-                            <input class="form-check-input" type="checkbox" id="by-charlie" value="by-charlie">
-                            <label class="form-check-label" for="by-charlie">By Charlie</label>
-                        </div>
-                        <div class="form-check pading-bottom checkbox-text col hide">
-                            <input class="form-check-input" type="checkbox" id="crazy" value="crazy">
-                            <label class="form-check-label" for="crazy">Crazy</label>
+                        <div class="col-6 text-left checkbox-text">
+                            <div class="checkbox" style="padding-left: 60px;">
+                                <label><input class="form-check-input margin-right-checkbox" type="checkbox" id="barueri" value="barueri">Barueri</label>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
-                <hr class="hr" />
+                <!-- Categoria Metade -->
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="titulo-categoria text-center">
+                        <h3 class="titulo-categoria">
+                            Categorias
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 text-left checkbox-text">
+                            <div class="checkbox" style="padding-left: 110px;">
+                                <label><input class="form-check-input margin-right-checkbox" type="checkbox" id="smart" value="smart">Smart</label>
+                            </div>
+                        </div>
+                        <div class="col-6 text-left checkbox-text">
+                            <div class="checkbox" style="padding-left: 60px;">
+                                <label><input class="form-check-input margin-right-checkbox" type="checkbox" id="charlie" value="charlie">Charlie</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-6 text-left checkbox-text">
+                            <div class="checkbox" style="padding-left: 110px;">
+                                <label><input class="form-check-input margin-right-checkbox" type="checkbox" id="by-charlie" value="by-charlie">By Charlie</label>
+                            </div>
+                        </div>
+                        <div class="col-6 text-left checkbox-text">
+                            <div class="checkbox" style="padding-left: 60px;">
+                                <label><input class="form-check-input margin-right-checkbox" type="checkbox" id="crazy" value="crazy">Crazy</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
+
     </div>
+
+                    <hr class="hr" />
+                </div>
+            </div>
+        </div>
+        
     <!-- filtros término -->
+        <!-- escondido começo-->    
+        <!-- escondido término-->
     <!-- começo do grid de fotos -->
     <div class="container">
         <div class="row">
@@ -105,7 +133,7 @@
                             04535-015</p>
                         <div class="flex-container center-center">
                             <a href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-itaim">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -130,7 +158,7 @@
                             04531-004 </p>
                         <div class="flex-container center-center">
                             <a href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-century-itaim">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -153,9 +181,8 @@
                             SP,
                             04536-001</p>
                         <div class="flex-container center-center">
-                            <a
-                                href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-jeronimo-da-veiga">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            <a href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-jeronimo-da-veiga">
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -182,7 +209,7 @@
                         <div class="flex-container center-center">
                             <a
                                 href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-edicao-jardim-paulista">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -209,7 +236,7 @@
                         <div class="flex-container center-center">
                             <a
                                 href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-oneeleven-vila-olimpia">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -234,9 +261,8 @@
                             04704-030
                         </p>
                         <div class="flex-container center-center">
-                            <a
-                                href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-brooklyn-studios">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            <a href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-brooklyn-studios">
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -263,7 +289,7 @@
                         </p>
                         <div class="flex-container center-center">
                             <a href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-nyc-berrini ">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -289,7 +315,7 @@
                         <div class="flex-container center-center">
                             <a
                                 href="https://paginas.staycharlie.com.br/acordos-comerciais-smart-charlie-mobi-pinheiros">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -312,9 +338,8 @@
                         <p class="card-text fonte-corpo"> Rua Fernão Dias, 407 </br> Pinheiros, São Paulo - SP,
                             05427-010</p>
                         <div class="flex-container center-center">
-                            <a
-                                href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-homelike-pinheiros">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            <a href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-homelike-pinheiros">
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -340,9 +365,8 @@
                             01445-000
                         </p>
                         <div class="flex-container center-center">
-                            <a
-                                href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-you-faria-lima">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            <a href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-you-faria-lima">
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -369,7 +393,7 @@
                             04532-060 </p>
                         <div class="flex-container center-center">
                             <a href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-nun-itaim">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -396,7 +420,7 @@
                         <div class="flex-container center-center">
                             <a
                                 href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-aeroporto-congonhas-cgh">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -424,7 +448,7 @@
                             04542-001</p>
                         <div class="flex-container center-center">
                             <a href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-style-itaim">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -449,7 +473,7 @@
                         </p>
                         <div class="flex-container center-center">
                             <a href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-bossa-ipanema">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -472,9 +496,8 @@
                             - SP
                         </p>
                         <div class="flex-container center-center">
-                            <a
-                                href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-you-faria-lima">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            <a href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-you-faria-lima">
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -499,7 +522,7 @@
                         <div class="flex-container center-center">
                             <a
                                 href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-the-park-cidade-baixa">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -524,7 +547,7 @@
                         <div class="flex-container center-center">
                             <a
                                 href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-vila-nova-conceicao-jacques-felix">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -543,13 +566,14 @@
                             <button class="tag-poa texto-centro"> Porto Alegre </button>
                         </div>
                         <h5 class="card-title fonte-titulo">Charlie Porto Alegre Moinhos</h5>
-                        <p class="card-text fonte-corpo"> Rua Ten. Cor. Fabricio Pillar, 311</br> Mont'Serrat , Porto Alegre
+                        <p class="card-text fonte-corpo"> Rua Ten. Cor. Fabricio Pillar, 311</br> Mont'Serrat , Porto
+                            Alegre
                             - RS
                         </p>
                         <div class="flex-container center-center">
                             <a
                                 href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-porto-alegre-moinhos">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -569,12 +593,11 @@
                         </div>
                         <h5 class="card-title fonte-titulo">Charlie Alphaville</h5>
                         <p class="card-text fonte-corpo"> Alameda Mamoré, 809</br> Barueri
-                            - SP, CEP 06454-040 
+                            - SP, CEP 06454-040
                         </p>
                         <div class="flex-container center-center">
-                            <a
-                                href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-alphaville">
-                                <button class="btn2 mid center"> Acessar Fotos </button>
+                            <a href="https://paginas.staycharlie.com.br/acordos-comerciais-charlie-alphaville">
+                                <button class="botao"> Acessar Fotos </button>
                             </a>
                         </div>
                     </div>
@@ -595,12 +618,14 @@
             </center>
         </div>
         <div class="row justify-content-md-center">
-            <div class="col-md-6 col-8 container text-center">
-                <iframe title="Mapa São Paulo" src="https://www.google.com/maps/d/embed?mid=14EiLVOlTJwz5E4xDdz09mY4Vixr7jCo&ehbc=2E312F"
+            <div class="col-md-6 col-12 container text-center">
+                <iframe title="Mapa São Paulo"
+                    src="https://www.google.com/maps/d/embed?mid=14EiLVOlTJwz5E4xDdz09mY4Vixr7jCo&ehbc=2E312F"
                     width="640" height="480"></iframe>
             </div>
-            <div class="col-md-6 col-8 container text-center">
-                <iframe title="Mapa Porto Alegre" src="https://www.google.com/maps/d/embed?mid=1sqsBp5WLOkQVJ2hPyQELIjjcwlV9hDc&ehbc=2E312F"
+            <div class="col-md-6 col-12 container text-center">
+                <iframe title="Mapa Porto Alegre"
+                    src="https://www.google.com/maps/d/embed?mid=1sqsBp5WLOkQVJ2hPyQELIjjcwlV9hDc&ehbc=2E312F"
                     width="640" height="480"></iframe>
             </div>
         </div>
@@ -622,9 +647,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/10becbea76.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="custom.js"></script>
 </body>
 
