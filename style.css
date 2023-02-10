@@ -96,6 +96,11 @@ div a:hover {
 
 /* Não commitados ainda */
 
+
+.padding-bottom-bar {
+    margin-bottom: 30px;
+}
+
 .max-wigth {
     max-width: 1200px;
 }
